@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body,html{
+  height:100%;
+  padding:0;
+  background: url('/assets/falaises-en-vau.jpg') no-repeat fixed;
+  font-family: 'Playfair Display', serif;
+  width: 100%;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+
+
+
+  .fill-height {
+    min-height: 100%;
+    height: -webkit-fill-available;/* cross-browser */
+    /*height: 100%; !* cross-browser *!*/
+    overflow: auto;
+  }
+

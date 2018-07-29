@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { TitleDescComponent } from './title-desc/title-desc.component';
+import { ContentComponent } from './content/content.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TitleDescComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule
