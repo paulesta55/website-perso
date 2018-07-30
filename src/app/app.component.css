@@ -4,12 +4,7 @@
   width: 100%;
 }
 
-@media screen and (max-height: 800px){
-  #left-side{
-    text-align: center;
-    /*height: 60%;*/
-  }
-}
+
 
 
 .col{
@@ -43,4 +38,9 @@ padding: 0;}
   background: transparent;
   margin: 0;
 
+}
+@media screen and (max-height: 800px){
+  #left-side{
+    text-align: center;
+  }
 }

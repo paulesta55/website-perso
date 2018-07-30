@@ -16,8 +16,7 @@ html, body {
 
   .fill-height {
     min-height: 100%;
-    height: stretch;/* cross-browser */
-    /*height: 100%; !* cross-browser *!*/
+    height: stretch;/* so that it fits the whole page height */
     overflow: auto;
   }
 
