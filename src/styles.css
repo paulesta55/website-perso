@@ -16,7 +16,7 @@ html, body {
 
   .fill-height {
     min-height: 100%;
-    height: -webkit-fill-available;/* cross-browser */
+    height: stretch;/* cross-browser */
     /*height: 100%; !* cross-browser *!*/
     overflow: auto;
   }
